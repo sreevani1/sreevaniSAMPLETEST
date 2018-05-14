@@ -91,6 +91,7 @@ catch(Exception e){System.out.println("MyThread Run"+e);}
 public void sendNewUserList()
 {
 	tellEveryOne(MyServer.UPDATE_USERS+users.toString());
+	System.out.println("Hello");
 
 }
 ////////////////////////
